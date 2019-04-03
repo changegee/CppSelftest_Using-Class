@@ -123,13 +123,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="mytime3.cpp" />
     <ClCompile Include="randwalk.cpp" />
-    <ClCompile Include="Time.cpp" />
+    <ClCompile Include="Stonewt.cpp" />
     <ClCompile Include="Time_use.cpp" />
+    <ClCompile Include="usetime3.cpp" />
     <ClCompile Include="vect.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Time.h" />
+    <ClInclude Include="mytime3.h" />
+    <ClInclude Include="Stonewt.h" />
     <ClInclude Include="vect.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

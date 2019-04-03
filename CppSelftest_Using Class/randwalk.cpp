@@ -5,7 +5,7 @@
 #include <ctime>        // time() prototype
 #include "vect.h"
 
-int main()
+int main2()
 {
 	using namespace std;
 	using VECTOR::Vector;
@@ -23,10 +23,11 @@ int main()
 		if (!(cin >> dstep))
 			break;
 
+
 		while (result.magval() < target)
 		{
 			direction = rand() % 360;
-			step.reset(dstep, direction, POL);
+			step.reset(dstep, direction, VECTOR::Vector::Mode::POL);
 			result = result + step;
 			steps++;
 		}

@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Time.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="Time_use.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -27,12 +24,24 @@
     <ClCompile Include="randwalk.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="mytime3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="usetime3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Stonewt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Time.h">
+    <ClInclude Include="vect.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="vect.h">
+    <ClInclude Include="mytime3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Stonewt.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
